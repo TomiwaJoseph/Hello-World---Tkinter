@@ -1,6 +1,11 @@
-from tkinter import Label, mainloop
+from tkinter import *
+
+root = Tk()
+root.geometry('200x100')
+root.config(bg='#000')
+root.resizable(0,0)
 
 Label(font='candara 24',text='Hello World!',
-    bg='#000',fg='#fff').pack()
+    fg='#fff',bg='#000').pack(pady=20)
 
 mainloop()
